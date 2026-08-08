@@ -1,0 +1,74 @@
+:root {
+  --cream: #f7efe0;
+  --cream-deep: #efe3cc;
+  --beige: #e9dcc0;
+  --gold: #b8893f;
+  --gold-bright: #d4a95a;
+  --gold-deep: #8f6a2c;
+  --ink: #3a2f20;
+  --ink-soft: #6b5c42;
+  --card-bg: rgba(255, 250, 238, 0.55);
+  --card-border: rgba(184, 137, 63, 0.35);
+  --shadow-soft: 0 10px 30px rgba(120, 90, 40, 0.14);
+  --peach: #f0c19a;
+  --blush: #e8b4b8;
+  --lavender: #cbb7dd;
+  --blue-muted: #a9c4d6;
+  --champagne: #f2e4c2;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+  --font-display: "Playfair Display", "Cormorant Garamond", serif;
+  --font-body: "Cormorant Garamond", "Playfair Display", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: radial-gradient(120% 90% at 50% 0%, var(--cream) 0%, var(--cream-deep) 55%, var(--beige) 100%);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#app {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(184, 137, 63, 0.25);
+}
