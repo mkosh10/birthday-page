@@ -23,8 +23,6 @@ const dict = computed(() => (props.locale === 'mk' ? mk : en))
     />
     <div id="details">
       <WifiCard
-        network-name="XXXXXXXX"
-        password="XXXXXXXX"
         :title="dict.wifiTitle"
         :network-label="dict.wifiNetworkLabel"
         :password-label="dict.wifiPasswordLabel"

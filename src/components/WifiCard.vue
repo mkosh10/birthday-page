@@ -2,11 +2,11 @@
 defineProps({
   networkName: {
     type: String,
-    default: 'XXXXXXXX',
+    default: 'Telekom-702692',
   },
   password: {
     type: String,
-    default: 'XXXXXXXX',
+    default: '657576realBday1860670898today04',
   },
   title: {
     type: String,
